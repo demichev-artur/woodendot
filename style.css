@@ -73,7 +73,6 @@ body{
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
-	height: 33px;
 	border: 1px solid #FFFFFF;
 	color: #FFFFFF;
 	
@@ -86,7 +85,6 @@ body{
 	left: 20px;
 	bottom: 3px;
 	background: #050505;
-	border-radius: 1px 1px 0px 0px;
 }
 
 .questions p{
@@ -110,22 +108,22 @@ body{
 	display: flex;
 	height: 155px;
 	justify-content: space-around;
+	align-items: center;
 	font-family: 'Roboto';
 	background-color: #F7F7F7;
 	font-weight: 400;
 	font-size: 18px;
 }
-
+.info div{
+	display: flex;
+	align-items: center;
+}
 .info img{
-	position: absolute;
-	top: 45.5px;
 	height: 64px;
 	width: 64px;
 }
 .info span{
-	position: relative;
-	top: 66.5px;
-	left: 75px;
+	margin-left: 10px;
 }
 
 .gallery{
@@ -327,7 +325,6 @@ body{
 	position: absolute;
 	top: 30px;
 	right: 20px;
-	color: white;
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
@@ -539,8 +536,5 @@ body{
 .sup_img {
 	text-align: center;
 	padding-top: 40px;
-}
-.sup_img div {
-
 }
 
